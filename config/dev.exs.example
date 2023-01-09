@@ -3,7 +3,7 @@ import Config
 # Configure your database
 config :game_of_war, GameOfWar.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "password",
   hostname: "localhost",
   database: "game_of_war_dev",
   stacktrace: true,
